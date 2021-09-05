@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Mouse</title>
+    <script>
+        function acao(){
+            alert('Evento Disparado')
+        }
+
+        function acao2(){
+            alert('Evento Duplo Click')
+        }
+
+        function acao3(){
+            alert('Evento Onmouseup')
+        }
+
+        function acao4(){
+            alert('Evento Onmouseover')
+        }
+
+        function acao5(){
+            alert('Evento Onmouseout')
+        }
+
+    </script>
+</head>
+<body>
+    <p>Evento Onclick</p>
+    <div onclick="acao()" style="background: #ccc; height: 150px; width: 150px"></div>
+
+    <p>Evento Ondblclick</p>
+    <div ondblclick="acao2()" style="background: #ccc; height: 150px; width: 150px"></div>
+
+    <p>Evento Onmouseup</p>
+    <div onmouseup="acao3()" style="background: #ccc; height: 150px; width: 150px"></div>
+
+    <p>Evento Onmouseover</p>
+    <div onmouseover="acao4()" style="background: #ccc; height: 150px; width: 150px"></div>
+
+    <p>Evento Onmouseout</p>
+    <div onmouseout="acao5()" style="background: #ccc; height: 150px; width: 150px"></div>
+
+</body>
+</html>
